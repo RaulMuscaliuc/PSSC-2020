@@ -1,0 +1,28 @@
+Stack Overflow: 
+ 
+ Este un site web care are ca tema principala domeniul programarii unde programatorii au posibilitatea sa puna intrebari si sa raspunda.
+
+ Functionalitati:
+  -crearea unui cont
+  -crearea unui post(sa pui o intrebare)
+  -postul este format din Titlu, Body si tag-uri (maxim 5)
+  -Body-ul se poate edita in felul urmator:
+   -bold
+   -italic
+   -code
+   -quote
+   -se pot adauga imagini
+   -contine inclusiv un IDE pentru JS si libajele derivate din el, ex: ReactJS, VueJS, jQuery
+   -IDE-ul contine parte de html, css, js si o zona unde se poate vedea rezultatul rularii codului
+  -Pe pagina principala (Home) este un top de intrebari dupa anumite filtre (interesante, intrebari cu recompense, hot, weekend, luna)
+  preselectat fiind interesante. Elementele listei contin numarul de voturi, numarul de raspunsuri, numarul de vizionari, titlu,ultima modificare
+  si de cine este facuta si tag-urile aferente
+  -Utilizatorii pot raspunde la intrebari avand acelasi bloc de editare ca si la cel de post cu toate functionalitatile de mai sus. Acest raspuns poate
+  sa primeasca un numar de voturi, poate la randului lui sa primeasca un raspuns si o bifa daca raspunsul a ajutat la rezolvarea problemei. Este specificat
+  utilizatorul care a dat raspunsul. Raspunsul este editabil de catre oricine si se poate da follow pentru a primi notificari daca ceva se modifica in 
+  raspuns
+  -Evident avem un search dupa care se poate cauta orice
+  -Pe langa cea principala, avem inca 2 search-uri, unul pentru tag-uri si altul pentru useri  
+ 
+ Pe langa tema principala stackoverflow pune la dispozitie utilizatorilor posibilitatea de a-si cauta un job, avand anunturi de la diferite companii
+din diferite tari care cauta angajati.
