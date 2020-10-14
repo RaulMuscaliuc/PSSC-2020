@@ -1,0 +1,27 @@
+Wrokflows
+ * Bounded context: "Question context"
+	~ Workflow: "Question post"
+		- Triffered by: "Question post request recived"
+		- Input: "Question form" (Title, Body, Tags)
+		- Output: "Question posted" event
+
+Wrokflows documentation
+~ Workflow: "Question post"
+	- Input: "Question form" (Title, Body, Tags)
+	- Output: "Question posted" event or Invalid question form 
+	//step 1
+	Do validate question profile form
+	If form is invalid then
+		stop
+	//step2
+	return "Question posted" event
+~ Substep "Validate question form"
+	- Input: "Unvalidated question form"
+	- Output: "Validated user profile form"
+	- Dependencies: Title validator, Body validator, Tags validator
+~ validate title
+~ validate the body
+~ validate tags
+~ if all validations passed then
+	- return validated question form
+~ else return Validation error
