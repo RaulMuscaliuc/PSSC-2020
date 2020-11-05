@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Answear.Domain.CreateReplyWorkflow
+namespace Reply.Domain.CreateReplyWorkflow
 {
     [Serializable]
     public class ValidationError : Exception

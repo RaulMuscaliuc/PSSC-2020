@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Answear.Domain.CreateReplyWorkflow
+namespace Reply.Domain.CreateReplyWorkflow
 {
     public struct CreateReplyCmd
     {
