@@ -35,4 +35,53 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="RowVersion" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="62e1fd4d-d4c6-4310-b56e-925b5855c3ca" ChangeDateTime="01/04/2021 20:25:27">
+    <Property Name="ElementName" Value="[dbo].[Question].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="tenantId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2f4e265f-ecc7-45db-950a-db9060d86805" ChangeDateTime="01/04/2021 20:27:13">
+    <Property Name="ElementName" Value="[dbo].[Question].[tenantId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TenantId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bf10b370-290b-49a7-9602-7c7cfe54ebc7" ChangeDateTime="01/04/2021 20:27:19">
+    <Property Name="ElementName" Value="[dbo].[Question].[userId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a660084a-aa8a-4e78-bbd3-8eb915643b27" ChangeDateTime="01/04/2021 20:27:23">
+    <Property Name="ElementName" Value="[dbo].[Question].[postType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PostType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="afc3ae87-9917-4a25-9afb-3046574d2ef5" ChangeDateTime="01/04/2021 20:27:26">
+    <Property Name="ElementName" Value="[dbo].[Question].[title]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Title" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4b3eb8f4-cd61-4f2d-939e-bec8682b3582" ChangeDateTime="01/04/2021 20:27:29">
+    <Property Name="ElementName" Value="[dbo].[Question].[body]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Body" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="83b19d08-2c92-490f-8ad5-8bfbac61f305" ChangeDateTime="01/04/2021 20:35:19">
+    <Property Name="ElementName" Value="[base].[Question].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[base].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TenantId" />
+  </Operation>
 </Operations>

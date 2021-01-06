@@ -1,0 +1,8 @@
+﻿CREATE TABLE [base].[Question]
+(
+	[TenantId] INT NOT NULL PRIMARY KEY, 
+    [UserId] UNIQUEIDENTIFIER NOT NULL, 
+    [PostType] NVARCHAR(50) NOT NULL, 
+    [Title] NVARCHAR(50) NOT NULL, 
+    [Body] NVARCHAR(150) NOT NULL
+)

@@ -46,6 +46,7 @@ namespace StackUnderflow.Domain.Core.Contexts.Question.ValidateQuestionOp
                 return new QuestionInvalidated("Duplicated Title");
             if (state.Posts.All(p => p.PostId != post.PostId))
                 state.Posts.Add(post);
+            else return new QuestionInvalidated("Duplicated Id");
             return new QuestionValidated(post);
         }
 

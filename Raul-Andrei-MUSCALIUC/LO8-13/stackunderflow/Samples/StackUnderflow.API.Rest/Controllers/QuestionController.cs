@@ -26,8 +26,8 @@ using LanguageExt;
 
 namespace StackUnderflow.API.Rest.Controllers
 {
-    [Route("question")]
     [ApiController]
+    [Route("question")]
     public class QuestionController : ControllerBase
     {
         private readonly IInterpreterAsync _interpreter;
@@ -41,9 +41,13 @@ namespace StackUnderflow.API.Rest.Controllers
             _client = client;
         }
 
-        [HttpPost("question")]
+        [HttpPost("create")]
         public async Task<IActionResult> CreateQuestionAndSendEmail([FromBody] ValidateQuestionCmd validateQuestionCmd)
         {
+            var dbPosts = _dbContext.Post.ToList();
+
+            _dbContext.Post.AttachRange(dbPosts);
+
             QuestionWriteContext ctx = new QuestionWriteContext(new EFList<Post>(_dbContext.Post));
 
             var dependencies = new QuestionDependencies();
